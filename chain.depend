@@ -1,0 +1,2460 @@
+# depslib dependency file v1.0
+1547499337 source:e:\dev\chain\hello.cpp
+	<iostream>
+
+1547922035 source:e:\dev\chain\src\main.cpp
+	<iostream>
+	<thread>
+	<chrono>
+	<Eigen/Dense>
+	<Eigen/SVD>
+	"jw/simple_chain.h"
+	<GL/glew.h>
+	<GLFW/glfw3.h>
+
+1466093957 e:\dev\chain\include\armadillo
+	<cstdlib>
+	<cstddef>
+	<cstdio>
+	<cstring>
+	<climits>
+	<cmath>
+	<ctime>
+	<iostream>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<new>
+	<limits>
+	<algorithm>
+	<complex>
+	<vector>
+	<utility>
+	<map>
+	<unistd.h>
+	<sys/time.h>
+	"armadillo_bits/compiler_extra.hpp"
+	"armadillo_bits/config.hpp"
+	"armadillo_bits/compiler_setup.hpp"
+	<initializer_list>
+	<cstdint>
+	<random>
+	<functional>
+	<chrono>
+	<mutex>
+	<atomic>
+	<tbb/scalable_allocator.h>
+	<mkl_service.h>
+	<tr1/cmath>
+	<tr1/complex>
+	"armadillo_bits/include_atlas.hpp"
+	"armadillo_bits/include_hdf5.hpp"
+	"armadillo_bits/include_superlu.hpp"
+	<omp.h>
+	"armadillo_bits/arma_forward.hpp"
+	"armadillo_bits/arma_static_check.hpp"
+	"armadillo_bits/typedef_elem.hpp"
+	"armadillo_bits/typedef_elem_check.hpp"
+	"armadillo_bits/typedef_mat.hpp"
+	"armadillo_bits/arma_str.hpp"
+	"armadillo_bits/arma_version.hpp"
+	"armadillo_bits/arma_config.hpp"
+	"armadillo_bits/traits.hpp"
+	"armadillo_bits/promote_type.hpp"
+	"armadillo_bits/upgrade_val.hpp"
+	"armadillo_bits/restrictors.hpp"
+	"armadillo_bits/access.hpp"
+	"armadillo_bits/span.hpp"
+	"armadillo_bits/distr_param.hpp"
+	"armadillo_bits/constants.hpp"
+	"armadillo_bits/constants_old.hpp"
+	"armadillo_bits/mp_misc.hpp"
+	"armadillo_bits/arma_rng_cxx98.hpp"
+	"armadillo_bits/arma_rng_cxx11.hpp"
+	"armadillo_bits/arma_rng.hpp"
+	"armadillo_bits/Base_bones.hpp"
+	"armadillo_bits/BaseCube_bones.hpp"
+	"armadillo_bits/SpBase_bones.hpp"
+	"armadillo_bits/def_blas.hpp"
+	"armadillo_bits/def_lapack.hpp"
+	"armadillo_bits/def_atlas.hpp"
+	"armadillo_bits/def_arpack.hpp"
+	"armadillo_bits/def_superlu.hpp"
+	"armadillo_bits/def_hdf5.hpp"
+	"armadillo_bits/wrapper_blas.hpp"
+	"armadillo_bits/wrapper_lapack.hpp"
+	"armadillo_bits/wrapper_atlas.hpp"
+	"armadillo_bits/wrapper_arpack.hpp"
+	"armadillo_bits/wrapper_superlu.hpp"
+	"armadillo_bits/cond_rel_bones.hpp"
+	"armadillo_bits/arrayops_bones.hpp"
+	"armadillo_bits/podarray_bones.hpp"
+	"armadillo_bits/auxlib_bones.hpp"
+	"armadillo_bits/sp_auxlib_bones.hpp"
+	"armadillo_bits/injector_bones.hpp"
+	"armadillo_bits/Mat_bones.hpp"
+	"armadillo_bits/Col_bones.hpp"
+	"armadillo_bits/Row_bones.hpp"
+	"armadillo_bits/Cube_bones.hpp"
+	"armadillo_bits/xvec_htrans_bones.hpp"
+	"armadillo_bits/xtrans_mat_bones.hpp"
+	"armadillo_bits/SizeMat_bones.hpp"
+	"armadillo_bits/SizeCube_bones.hpp"
+	"armadillo_bits/SpValProxy_bones.hpp"
+	"armadillo_bits/SpMat_bones.hpp"
+	"armadillo_bits/SpCol_bones.hpp"
+	"armadillo_bits/SpRow_bones.hpp"
+	"armadillo_bits/SpSubview_bones.hpp"
+	"armadillo_bits/spdiagview_bones.hpp"
+	"armadillo_bits/MapMat_bones.hpp"
+	"armadillo_bits/typedef_mat_fixed.hpp"
+	"armadillo_bits/field_bones.hpp"
+	"armadillo_bits/subview_bones.hpp"
+	"armadillo_bits/subview_elem1_bones.hpp"
+	"armadillo_bits/subview_elem2_bones.hpp"
+	"armadillo_bits/subview_field_bones.hpp"
+	"armadillo_bits/subview_cube_bones.hpp"
+	"armadillo_bits/diagview_bones.hpp"
+	"armadillo_bits/subview_each_bones.hpp"
+	"armadillo_bits/subview_cube_each_bones.hpp"
+	"armadillo_bits/subview_cube_slices_bones.hpp"
+	"armadillo_bits/diskio_bones.hpp"
+	"armadillo_bits/wall_clock_bones.hpp"
+	"armadillo_bits/running_stat_bones.hpp"
+	"armadillo_bits/running_stat_vec_bones.hpp"
+	"armadillo_bits/Op_bones.hpp"
+	"armadillo_bits/OpCube_bones.hpp"
+	"armadillo_bits/SpOp_bones.hpp"
+	"armadillo_bits/eOp_bones.hpp"
+	"armadillo_bits/eOpCube_bones.hpp"
+	"armadillo_bits/mtOp_bones.hpp"
+	"armadillo_bits/mtOpCube_bones.hpp"
+	"armadillo_bits/mtSpOp_bones.hpp"
+	"armadillo_bits/Glue_bones.hpp"
+	"armadillo_bits/eGlue_bones.hpp"
+	"armadillo_bits/mtGlue_bones.hpp"
+	"armadillo_bits/SpGlue_bones.hpp"
+	"armadillo_bits/GlueCube_bones.hpp"
+	"armadillo_bits/eGlueCube_bones.hpp"
+	"armadillo_bits/mtGlueCube_bones.hpp"
+	"armadillo_bits/eop_core_bones.hpp"
+	"armadillo_bits/eglue_core_bones.hpp"
+	"armadillo_bits/GenSpecialiser.hpp"
+	"armadillo_bits/Gen_bones.hpp"
+	"armadillo_bits/GenCube_bones.hpp"
+	"armadillo_bits/op_diagmat_bones.hpp"
+	"armadillo_bits/op_diagvec_bones.hpp"
+	"armadillo_bits/op_dot_bones.hpp"
+	"armadillo_bits/op_inv_bones.hpp"
+	"armadillo_bits/op_htrans_bones.hpp"
+	"armadillo_bits/op_max_bones.hpp"
+	"armadillo_bits/op_min_bones.hpp"
+	"armadillo_bits/op_index_max_bones.hpp"
+	"armadillo_bits/op_index_min_bones.hpp"
+	"armadillo_bits/op_mean_bones.hpp"
+	"armadillo_bits/op_median_bones.hpp"
+	"armadillo_bits/op_sort_bones.hpp"
+	"armadillo_bits/op_sort_index_bones.hpp"
+	"armadillo_bits/op_sum_bones.hpp"
+	"armadillo_bits/op_stddev_bones.hpp"
+	"armadillo_bits/op_strans_bones.hpp"
+	"armadillo_bits/op_var_bones.hpp"
+	"armadillo_bits/op_repmat_bones.hpp"
+	"armadillo_bits/op_repelem_bones.hpp"
+	"armadillo_bits/op_reshape_bones.hpp"
+	"armadillo_bits/op_vectorise_bones.hpp"
+	"armadillo_bits/op_resize_bones.hpp"
+	"armadillo_bits/op_cov_bones.hpp"
+	"armadillo_bits/op_cor_bones.hpp"
+	"armadillo_bits/op_shift_bones.hpp"
+	"armadillo_bits/op_shuffle_bones.hpp"
+	"armadillo_bits/op_prod_bones.hpp"
+	"armadillo_bits/op_pinv_bones.hpp"
+	"armadillo_bits/op_dotext_bones.hpp"
+	"armadillo_bits/op_flip_bones.hpp"
+	"armadillo_bits/op_reverse_bones.hpp"
+	"armadillo_bits/op_princomp_bones.hpp"
+	"armadillo_bits/op_misc_bones.hpp"
+	"armadillo_bits/op_orth_null_bones.hpp"
+	"armadillo_bits/op_relational_bones.hpp"
+	"armadillo_bits/op_find_bones.hpp"
+	"armadillo_bits/op_find_unique_bones.hpp"
+	"armadillo_bits/op_chol_bones.hpp"
+	"armadillo_bits/op_cx_scalar_bones.hpp"
+	"armadillo_bits/op_trimat_bones.hpp"
+	"armadillo_bits/op_cumsum_bones.hpp"
+	"armadillo_bits/op_cumprod_bones.hpp"
+	"armadillo_bits/op_symmat_bones.hpp"
+	"armadillo_bits/op_hist_bones.hpp"
+	"armadillo_bits/op_unique_bones.hpp"
+	"armadillo_bits/op_toeplitz_bones.hpp"
+	"armadillo_bits/op_fft_bones.hpp"
+	"armadillo_bits/op_any_bones.hpp"
+	"armadillo_bits/op_all_bones.hpp"
+	"armadillo_bits/op_normalise_bones.hpp"
+	"armadillo_bits/op_clamp_bones.hpp"
+	"armadillo_bits/op_expmat_bones.hpp"
+	"armadillo_bits/op_nonzeros_bones.hpp"
+	"armadillo_bits/op_diff_bones.hpp"
+	"armadillo_bits/op_norm_bones.hpp"
+	"armadillo_bits/op_sqrtmat_bones.hpp"
+	"armadillo_bits/op_logmat_bones.hpp"
+	"armadillo_bits/op_range_bones.hpp"
+	"armadillo_bits/op_chi2rnd_bones.hpp"
+	"armadillo_bits/op_wishrnd_bones.hpp"
+	"armadillo_bits/op_roots_bones.hpp"
+	"armadillo_bits/op_cond_bones.hpp"
+	"armadillo_bits/glue_times_bones.hpp"
+	"armadillo_bits/glue_mixed_bones.hpp"
+	"armadillo_bits/glue_cov_bones.hpp"
+	"armadillo_bits/glue_cor_bones.hpp"
+	"armadillo_bits/glue_kron_bones.hpp"
+	"armadillo_bits/glue_cross_bones.hpp"
+	"armadillo_bits/glue_join_bones.hpp"
+	"armadillo_bits/glue_relational_bones.hpp"
+	"armadillo_bits/glue_solve_bones.hpp"
+	"armadillo_bits/glue_conv_bones.hpp"
+	"armadillo_bits/glue_toeplitz_bones.hpp"
+	"armadillo_bits/glue_hist_bones.hpp"
+	"armadillo_bits/glue_histc_bones.hpp"
+	"armadillo_bits/glue_max_bones.hpp"
+	"armadillo_bits/glue_min_bones.hpp"
+	"armadillo_bits/glue_trapz_bones.hpp"
+	"armadillo_bits/glue_atan2_bones.hpp"
+	"armadillo_bits/glue_hypot_bones.hpp"
+	"armadillo_bits/glue_polyfit_bones.hpp"
+	"armadillo_bits/glue_polyval_bones.hpp"
+	"armadillo_bits/glue_intersect_bones.hpp"
+	"armadillo_bits/glue_affmul_bones.hpp"
+	"armadillo_bits/glue_mvnrnd_bones.hpp"
+	"armadillo_bits/gmm_misc_bones.hpp"
+	"armadillo_bits/gmm_diag_bones.hpp"
+	"armadillo_bits/gmm_full_bones.hpp"
+	"armadillo_bits/spop_max_bones.hpp"
+	"armadillo_bits/spop_min_bones.hpp"
+	"armadillo_bits/spop_sum_bones.hpp"
+	"armadillo_bits/spop_strans_bones.hpp"
+	"armadillo_bits/spop_htrans_bones.hpp"
+	"armadillo_bits/spop_misc_bones.hpp"
+	"armadillo_bits/spop_diagmat_bones.hpp"
+	"armadillo_bits/spop_mean_bones.hpp"
+	"armadillo_bits/spop_var_bones.hpp"
+	"armadillo_bits/spop_trimat_bones.hpp"
+	"armadillo_bits/spop_symmat_bones.hpp"
+	"armadillo_bits/spop_normalise_bones.hpp"
+	"armadillo_bits/spop_reverse_bones.hpp"
+	"armadillo_bits/spop_repmat_bones.hpp"
+	"armadillo_bits/spglue_elem_helper_bones.hpp"
+	"armadillo_bits/spglue_plus_bones.hpp"
+	"armadillo_bits/spglue_minus_bones.hpp"
+	"armadillo_bits/spglue_schur_bones.hpp"
+	"armadillo_bits/spglue_times_bones.hpp"
+	"armadillo_bits/spglue_join_bones.hpp"
+	"armadillo_bits/spglue_kron_bones.hpp"
+	"armadillo_bits/newarp_EigsSelect.hpp"
+	"armadillo_bits/newarp_DenseGenMatProd_bones.hpp"
+	"armadillo_bits/newarp_SparseGenMatProd_bones.hpp"
+	"armadillo_bits/newarp_DoubleShiftQR_bones.hpp"
+	"armadillo_bits/newarp_GenEigsSolver_bones.hpp"
+	"armadillo_bits/newarp_SymEigsSolver_bones.hpp"
+	"armadillo_bits/newarp_TridiagEigen_bones.hpp"
+	"armadillo_bits/newarp_UpperHessenbergEigen_bones.hpp"
+	"armadillo_bits/newarp_UpperHessenbergQR_bones.hpp"
+	"armadillo_bits/debug.hpp"
+	"armadillo_bits/memory.hpp"
+	"armadillo_bits/arma_cmath.hpp"
+	"armadillo_bits/unwrap.hpp"
+	"armadillo_bits/unwrap_cube.hpp"
+	"armadillo_bits/unwrap_spmat.hpp"
+	"armadillo_bits/Proxy.hpp"
+	"armadillo_bits/ProxyCube.hpp"
+	"armadillo_bits/SpProxy.hpp"
+	"armadillo_bits/diagmat_proxy.hpp"
+	"armadillo_bits/strip.hpp"
+	"armadillo_bits/eop_aux.hpp"
+	"armadillo_bits/arma_ostream_bones.hpp"
+	"armadillo_bits/arma_ostream_meat.hpp"
+	"armadillo_bits/fn_n_unique.hpp"
+	"armadillo_bits/operator_plus.hpp"
+	"armadillo_bits/operator_minus.hpp"
+	"armadillo_bits/operator_times.hpp"
+	"armadillo_bits/operator_schur.hpp"
+	"armadillo_bits/operator_div.hpp"
+	"armadillo_bits/operator_relational.hpp"
+	"armadillo_bits/operator_cube_plus.hpp"
+	"armadillo_bits/operator_cube_minus.hpp"
+	"armadillo_bits/operator_cube_times.hpp"
+	"armadillo_bits/operator_cube_schur.hpp"
+	"armadillo_bits/operator_cube_div.hpp"
+	"armadillo_bits/operator_cube_relational.hpp"
+	"armadillo_bits/operator_ostream.hpp"
+	"armadillo_bits/fn_conv_to.hpp"
+	"armadillo_bits/fn_max.hpp"
+	"armadillo_bits/fn_min.hpp"
+	"armadillo_bits/fn_index_max.hpp"
+	"armadillo_bits/fn_index_min.hpp"
+	"armadillo_bits/fn_accu.hpp"
+	"armadillo_bits/fn_sum.hpp"
+	"armadillo_bits/fn_diagmat.hpp"
+	"armadillo_bits/fn_diagvec.hpp"
+	"armadillo_bits/fn_inv.hpp"
+	"armadillo_bits/fn_trace.hpp"
+	"armadillo_bits/fn_trans.hpp"
+	"armadillo_bits/fn_det.hpp"
+	"armadillo_bits/fn_log_det.hpp"
+	"armadillo_bits/fn_eig_gen.hpp"
+	"armadillo_bits/fn_eig_sym.hpp"
+	"armadillo_bits/fn_eig_pair.hpp"
+	"armadillo_bits/fn_lu.hpp"
+	"armadillo_bits/fn_zeros.hpp"
+	"armadillo_bits/fn_ones.hpp"
+	"armadillo_bits/fn_eye.hpp"
+	"armadillo_bits/fn_misc.hpp"
+	"armadillo_bits/fn_orth_null.hpp"
+	"armadillo_bits/fn_regspace.hpp"
+	"armadillo_bits/fn_find.hpp"
+	"armadillo_bits/fn_find_unique.hpp"
+	"armadillo_bits/fn_elem.hpp"
+	"armadillo_bits/fn_approx_equal.hpp"
+	"armadillo_bits/fn_norm.hpp"
+	"armadillo_bits/fn_dot.hpp"
+	"armadillo_bits/fn_randu.hpp"
+	"armadillo_bits/fn_randn.hpp"
+	"armadillo_bits/fn_trig.hpp"
+	"armadillo_bits/fn_mean.hpp"
+	"armadillo_bits/fn_median.hpp"
+	"armadillo_bits/fn_stddev.hpp"
+	"armadillo_bits/fn_var.hpp"
+	"armadillo_bits/fn_sort.hpp"
+	"armadillo_bits/fn_sort_index.hpp"
+	"armadillo_bits/fn_strans.hpp"
+	"armadillo_bits/fn_chol.hpp"
+	"armadillo_bits/fn_qr.hpp"
+	"armadillo_bits/fn_svd.hpp"
+	"armadillo_bits/fn_solve.hpp"
+	"armadillo_bits/fn_repmat.hpp"
+	"armadillo_bits/fn_repelem.hpp"
+	"armadillo_bits/fn_reshape.hpp"
+	"armadillo_bits/fn_vectorise.hpp"
+	"armadillo_bits/fn_resize.hpp"
+	"armadillo_bits/fn_cov.hpp"
+	"armadillo_bits/fn_cor.hpp"
+	"armadillo_bits/fn_shift.hpp"
+	"armadillo_bits/fn_shuffle.hpp"
+	"armadillo_bits/fn_prod.hpp"
+	"armadillo_bits/fn_eps.hpp"
+	"armadillo_bits/fn_pinv.hpp"
+	"armadillo_bits/fn_rank.hpp"
+	"armadillo_bits/fn_kron.hpp"
+	"armadillo_bits/fn_flip.hpp"
+	"armadillo_bits/fn_reverse.hpp"
+	"armadillo_bits/fn_as_scalar.hpp"
+	"armadillo_bits/fn_princomp.hpp"
+	"armadillo_bits/fn_cross.hpp"
+	"armadillo_bits/fn_join.hpp"
+	"armadillo_bits/fn_conv.hpp"
+	"armadillo_bits/fn_trunc_exp.hpp"
+	"armadillo_bits/fn_trunc_log.hpp"
+	"armadillo_bits/fn_toeplitz.hpp"
+	"armadillo_bits/fn_trimat.hpp"
+	"armadillo_bits/fn_cumsum.hpp"
+	"armadillo_bits/fn_cumprod.hpp"
+	"armadillo_bits/fn_symmat.hpp"
+	"armadillo_bits/fn_syl_lyap.hpp"
+	"armadillo_bits/fn_hist.hpp"
+	"armadillo_bits/fn_histc.hpp"
+	"armadillo_bits/fn_unique.hpp"
+	"armadillo_bits/fn_fft.hpp"
+	"armadillo_bits/fn_fft2.hpp"
+	"armadillo_bits/fn_any.hpp"
+	"armadillo_bits/fn_all.hpp"
+	"armadillo_bits/fn_size.hpp"
+	"armadillo_bits/fn_numel.hpp"
+	"armadillo_bits/fn_inplace_strans.hpp"
+	"armadillo_bits/fn_inplace_trans.hpp"
+	"armadillo_bits/fn_randi.hpp"
+	"armadillo_bits/fn_randg.hpp"
+	"armadillo_bits/fn_cond.hpp"
+	"armadillo_bits/fn_normalise.hpp"
+	"armadillo_bits/fn_clamp.hpp"
+	"armadillo_bits/fn_expmat.hpp"
+	"armadillo_bits/fn_nonzeros.hpp"
+	"armadillo_bits/fn_interp1.hpp"
+	"armadillo_bits/fn_qz.hpp"
+	"armadillo_bits/fn_diff.hpp"
+	"armadillo_bits/fn_hess.hpp"
+	"armadillo_bits/fn_schur.hpp"
+	"armadillo_bits/fn_kmeans.hpp"
+	"armadillo_bits/fn_sqrtmat.hpp"
+	"armadillo_bits/fn_logmat.hpp"
+	"armadillo_bits/fn_trapz.hpp"
+	"armadillo_bits/fn_range.hpp"
+	"armadillo_bits/fn_polyfit.hpp"
+	"armadillo_bits/fn_polyval.hpp"
+	"armadillo_bits/fn_intersect.hpp"
+	"armadillo_bits/fn_normpdf.hpp"
+	"armadillo_bits/fn_normcdf.hpp"
+	"armadillo_bits/fn_mvnrnd.hpp"
+	"armadillo_bits/fn_chi2rnd.hpp"
+	"armadillo_bits/fn_wishrnd.hpp"
+	"armadillo_bits/fn_roots.hpp"
+	"armadillo_bits/fn_speye.hpp"
+	"armadillo_bits/fn_spones.hpp"
+	"armadillo_bits/fn_sprandn.hpp"
+	"armadillo_bits/fn_sprandu.hpp"
+	"armadillo_bits/fn_eigs_sym.hpp"
+	"armadillo_bits/fn_eigs_gen.hpp"
+	"armadillo_bits/fn_spsolve.hpp"
+	"armadillo_bits/fn_svds.hpp"
+	"armadillo_bits/hdf5_misc.hpp"
+	"armadillo_bits/fft_engine.hpp"
+	"armadillo_bits/band_helper.hpp"
+	"armadillo_bits/sympd_helper.hpp"
+	"armadillo_bits/mul_gemv.hpp"
+	"armadillo_bits/mul_gemm.hpp"
+	"armadillo_bits/mul_gemm_mixed.hpp"
+	"armadillo_bits/mul_syrk.hpp"
+	"armadillo_bits/mul_herk.hpp"
+	"armadillo_bits/Op_meat.hpp"
+	"armadillo_bits/OpCube_meat.hpp"
+	"armadillo_bits/SpOp_meat.hpp"
+	"armadillo_bits/mtOp_meat.hpp"
+	"armadillo_bits/mtOpCube_meat.hpp"
+	"armadillo_bits/mtSpOp_meat.hpp"
+	"armadillo_bits/Glue_meat.hpp"
+	"armadillo_bits/GlueCube_meat.hpp"
+	"armadillo_bits/SpGlue_meat.hpp"
+	"armadillo_bits/eOp_meat.hpp"
+	"armadillo_bits/eOpCube_meat.hpp"
+	"armadillo_bits/eGlue_meat.hpp"
+	"armadillo_bits/eGlueCube_meat.hpp"
+	"armadillo_bits/mtGlue_meat.hpp"
+	"armadillo_bits/mtGlueCube_meat.hpp"
+	"armadillo_bits/Base_meat.hpp"
+	"armadillo_bits/BaseCube_meat.hpp"
+	"armadillo_bits/SpBase_meat.hpp"
+	"armadillo_bits/Gen_meat.hpp"
+	"armadillo_bits/GenCube_meat.hpp"
+	"armadillo_bits/eop_core_meat.hpp"
+	"armadillo_bits/eglue_core_meat.hpp"
+	"armadillo_bits/cond_rel_meat.hpp"
+	"armadillo_bits/arrayops_meat.hpp"
+	"armadillo_bits/podarray_meat.hpp"
+	"armadillo_bits/auxlib_meat.hpp"
+	"armadillo_bits/sp_auxlib_meat.hpp"
+	"armadillo_bits/injector_meat.hpp"
+	"armadillo_bits/Mat_meat.hpp"
+	"armadillo_bits/Col_meat.hpp"
+	"armadillo_bits/Row_meat.hpp"
+	"armadillo_bits/Cube_meat.hpp"
+	"armadillo_bits/xvec_htrans_meat.hpp"
+	"armadillo_bits/xtrans_mat_meat.hpp"
+	"armadillo_bits/SizeMat_meat.hpp"
+	"armadillo_bits/SizeCube_meat.hpp"
+	"armadillo_bits/field_meat.hpp"
+	"armadillo_bits/subview_meat.hpp"
+	"armadillo_bits/subview_elem1_meat.hpp"
+	"armadillo_bits/subview_elem2_meat.hpp"
+	"armadillo_bits/subview_field_meat.hpp"
+	"armadillo_bits/subview_cube_meat.hpp"
+	"armadillo_bits/diagview_meat.hpp"
+	"armadillo_bits/subview_each_meat.hpp"
+	"armadillo_bits/subview_cube_each_meat.hpp"
+	"armadillo_bits/subview_cube_slices_meat.hpp"
+	"armadillo_bits/SpValProxy_meat.hpp"
+	"armadillo_bits/SpMat_meat.hpp"
+	"armadillo_bits/SpMat_iterators_meat.hpp"
+	"armadillo_bits/SpCol_meat.hpp"
+	"armadillo_bits/SpRow_meat.hpp"
+	"armadillo_bits/SpSubview_meat.hpp"
+	"armadillo_bits/SpSubview_iterators_meat.hpp"
+	"armadillo_bits/spdiagview_meat.hpp"
+	"armadillo_bits/MapMat_meat.hpp"
+	"armadillo_bits/diskio_meat.hpp"
+	"armadillo_bits/wall_clock_meat.hpp"
+	"armadillo_bits/running_stat_meat.hpp"
+	"armadillo_bits/running_stat_vec_meat.hpp"
+	"armadillo_bits/op_diagmat_meat.hpp"
+	"armadillo_bits/op_diagvec_meat.hpp"
+	"armadillo_bits/op_dot_meat.hpp"
+	"armadillo_bits/op_inv_meat.hpp"
+	"armadillo_bits/op_htrans_meat.hpp"
+	"armadillo_bits/op_max_meat.hpp"
+	"armadillo_bits/op_index_max_meat.hpp"
+	"armadillo_bits/op_index_min_meat.hpp"
+	"armadillo_bits/op_min_meat.hpp"
+	"armadillo_bits/op_mean_meat.hpp"
+	"armadillo_bits/op_median_meat.hpp"
+	"armadillo_bits/op_sort_meat.hpp"
+	"armadillo_bits/op_sort_index_meat.hpp"
+	"armadillo_bits/op_sum_meat.hpp"
+	"armadillo_bits/op_stddev_meat.hpp"
+	"armadillo_bits/op_strans_meat.hpp"
+	"armadillo_bits/op_var_meat.hpp"
+	"armadillo_bits/op_repmat_meat.hpp"
+	"armadillo_bits/op_repelem_meat.hpp"
+	"armadillo_bits/op_reshape_meat.hpp"
+	"armadillo_bits/op_vectorise_meat.hpp"
+	"armadillo_bits/op_resize_meat.hpp"
+	"armadillo_bits/op_cov_meat.hpp"
+	"armadillo_bits/op_cor_meat.hpp"
+	"armadillo_bits/op_shift_meat.hpp"
+	"armadillo_bits/op_shuffle_meat.hpp"
+	"armadillo_bits/op_prod_meat.hpp"
+	"armadillo_bits/op_pinv_meat.hpp"
+	"armadillo_bits/op_dotext_meat.hpp"
+	"armadillo_bits/op_flip_meat.hpp"
+	"armadillo_bits/op_reverse_meat.hpp"
+	"armadillo_bits/op_princomp_meat.hpp"
+	"armadillo_bits/op_misc_meat.hpp"
+	"armadillo_bits/op_orth_null_meat.hpp"
+	"armadillo_bits/op_relational_meat.hpp"
+	"armadillo_bits/op_find_meat.hpp"
+	"armadillo_bits/op_find_unique_meat.hpp"
+	"armadillo_bits/op_chol_meat.hpp"
+	"armadillo_bits/op_cx_scalar_meat.hpp"
+	"armadillo_bits/op_trimat_meat.hpp"
+	"armadillo_bits/op_cumsum_meat.hpp"
+	"armadillo_bits/op_cumprod_meat.hpp"
+	"armadillo_bits/op_symmat_meat.hpp"
+	"armadillo_bits/op_hist_meat.hpp"
+	"armadillo_bits/op_unique_meat.hpp"
+	"armadillo_bits/op_toeplitz_meat.hpp"
+	"armadillo_bits/op_fft_meat.hpp"
+	"armadillo_bits/op_any_meat.hpp"
+	"armadillo_bits/op_all_meat.hpp"
+	"armadillo_bits/op_normalise_meat.hpp"
+	"armadillo_bits/op_clamp_meat.hpp"
+	"armadillo_bits/op_expmat_meat.hpp"
+	"armadillo_bits/op_nonzeros_meat.hpp"
+	"armadillo_bits/op_diff_meat.hpp"
+	"armadillo_bits/op_norm_meat.hpp"
+	"armadillo_bits/op_sqrtmat_meat.hpp"
+	"armadillo_bits/op_logmat_meat.hpp"
+	"armadillo_bits/op_range_meat.hpp"
+	"armadillo_bits/op_chi2rnd_meat.hpp"
+	"armadillo_bits/op_wishrnd_meat.hpp"
+	"armadillo_bits/op_roots_meat.hpp"
+	"armadillo_bits/op_cond_meat.hpp"
+	"armadillo_bits/glue_times_meat.hpp"
+	"armadillo_bits/glue_mixed_meat.hpp"
+	"armadillo_bits/glue_cov_meat.hpp"
+	"armadillo_bits/glue_cor_meat.hpp"
+	"armadillo_bits/glue_kron_meat.hpp"
+	"armadillo_bits/glue_cross_meat.hpp"
+	"armadillo_bits/glue_join_meat.hpp"
+	"armadillo_bits/glue_relational_meat.hpp"
+	"armadillo_bits/glue_solve_meat.hpp"
+	"armadillo_bits/glue_conv_meat.hpp"
+	"armadillo_bits/glue_toeplitz_meat.hpp"
+	"armadillo_bits/glue_hist_meat.hpp"
+	"armadillo_bits/glue_histc_meat.hpp"
+	"armadillo_bits/glue_max_meat.hpp"
+	"armadillo_bits/glue_min_meat.hpp"
+	"armadillo_bits/glue_trapz_meat.hpp"
+	"armadillo_bits/glue_atan2_meat.hpp"
+	"armadillo_bits/glue_hypot_meat.hpp"
+	"armadillo_bits/glue_polyfit_meat.hpp"
+	"armadillo_bits/glue_polyval_meat.hpp"
+	"armadillo_bits/glue_intersect_meat.hpp"
+	"armadillo_bits/glue_affmul_meat.hpp"
+	"armadillo_bits/glue_mvnrnd_meat.hpp"
+	"armadillo_bits/gmm_misc_meat.hpp"
+	"armadillo_bits/gmm_diag_meat.hpp"
+	"armadillo_bits/gmm_full_meat.hpp"
+	"armadillo_bits/spop_max_meat.hpp"
+	"armadillo_bits/spop_min_meat.hpp"
+	"armadillo_bits/spop_sum_meat.hpp"
+	"armadillo_bits/spop_strans_meat.hpp"
+	"armadillo_bits/spop_htrans_meat.hpp"
+	"armadillo_bits/spop_misc_meat.hpp"
+	"armadillo_bits/spop_diagmat_meat.hpp"
+	"armadillo_bits/spop_mean_meat.hpp"
+	"armadillo_bits/spop_var_meat.hpp"
+	"armadillo_bits/spop_trimat_meat.hpp"
+	"armadillo_bits/spop_symmat_meat.hpp"
+	"armadillo_bits/spop_normalise_meat.hpp"
+	"armadillo_bits/spop_reverse_meat.hpp"
+	"armadillo_bits/spop_repmat_meat.hpp"
+	"armadillo_bits/spglue_elem_helper_meat.hpp"
+	"armadillo_bits/spglue_plus_meat.hpp"
+	"armadillo_bits/spglue_minus_meat.hpp"
+	"armadillo_bits/spglue_schur_meat.hpp"
+	"armadillo_bits/spglue_times_meat.hpp"
+	"armadillo_bits/spglue_join_meat.hpp"
+	"armadillo_bits/spglue_kron_meat.hpp"
+	"armadillo_bits/newarp_cx_attrib.hpp"
+	"armadillo_bits/newarp_SortEigenvalue.hpp"
+	"armadillo_bits/newarp_DenseGenMatProd_meat.hpp"
+	"armadillo_bits/newarp_SparseGenMatProd_meat.hpp"
+	"armadillo_bits/newarp_DoubleShiftQR_meat.hpp"
+	"armadillo_bits/newarp_GenEigsSolver_meat.hpp"
+	"armadillo_bits/newarp_SymEigsSolver_meat.hpp"
+	"armadillo_bits/newarp_TridiagEigen_meat.hpp"
+	"armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp"
+	"armadillo_bits/newarp_UpperHessenbergQR_meat.hpp"
+	"armadillo_bits/compiler_setup_post.hpp"
+
+1466093957 e:\dev\chain\include\armadillo_bits\compiler_extra.hpp
+
+1547665857 e:\dev\chain\include\armadillo_bits\config.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\compiler_setup.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\include_atlas.hpp
+	<cblas.h>
+	<clapack.h>
+
+1466093957 e:\dev\chain\include\armadillo_bits\include_hdf5.hpp
+	<hdf5.h>
+
+1466093957 e:\dev\chain\include\armadillo_bits\include_superlu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_forward.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_static_check.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\typedef_elem.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\typedef_elem_check.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\typedef_mat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_str.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_version.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_config.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\traits.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\promote_type.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\upgrade_val.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\restrictors.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\access.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\span.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\distr_param.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\constants.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\constants_old.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mp_misc.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_rng_cxx98.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_rng_cxx11.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_rng.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\base_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\basecube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spbase_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\def_blas.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\def_lapack.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\def_atlas.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\def_arpack.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\def_superlu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\def_hdf5.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wrapper_blas.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wrapper_lapack.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wrapper_atlas.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wrapper_arpack.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wrapper_superlu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\cond_rel_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arrayops_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\podarray_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\auxlib_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sp_auxlib_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\injector_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\col_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\row_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\cube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\xvec_htrans_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\xtrans_mat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sizemat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sizecube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spvalproxy_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spcol_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sprow_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spsubview_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spdiagview_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mapmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\typedef_mat_fixed.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\field_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_elem1_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_elem2_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_field_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_cube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\diagview_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_each_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_cube_each_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_cube_slices_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\diskio_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wall_clock_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\running_stat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\running_stat_vec_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\opcube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eop_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eopcube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtop_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtopcube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtspop_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eglue_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtglue_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gluecube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\egluecube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtgluecube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eop_core_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eglue_core_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\genspecialiser.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gen_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gencube_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_diagmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_diagvec_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_dot_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_inv_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_htrans_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_max_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_min_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_index_max_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_index_min_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_mean_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_median_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sort_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sort_index_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sum_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_stddev_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_strans_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_var_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_repmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_repelem_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_reshape_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_vectorise_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_resize_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cov_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cor_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_shift_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_shuffle_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_prod_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_pinv_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_dotext_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_flip_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_reverse_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_princomp_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_misc_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_orth_null_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_relational_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_find_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_find_unique_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_chol_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cx_scalar_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_trimat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cumsum_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cumprod_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_symmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_hist_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_unique_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_toeplitz_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_fft_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_any_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_all_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_normalise_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_clamp_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_expmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_nonzeros_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_diff_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_norm_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sqrtmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_logmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_range_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_chi2rnd_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_wishrnd_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_roots_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cond_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_times_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_mixed_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_cov_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_cor_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_kron_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_cross_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_join_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_relational_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_solve_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_conv_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_toeplitz_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_hist_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_histc_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_max_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_min_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_trapz_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_atan2_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_hypot_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_polyfit_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_polyval_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_intersect_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_affmul_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_mvnrnd_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gmm_misc_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gmm_diag_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gmm_full_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_max_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_min_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_sum_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_strans_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_htrans_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_misc_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_diagmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_mean_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_var_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_trimat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_symmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_normalise_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_reverse_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_repmat_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_elem_helper_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_plus_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_minus_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_schur_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_times_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_join_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_kron_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_eigsselect.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_densegenmatprod_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_sparsegenmatprod_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_doubleshiftqr_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_geneigssolver_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_symeigssolver_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_tridiageigen_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_upperhessenbergeigen_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_upperhessenbergqr_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\debug.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\memory.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_cmath.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\unwrap.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\unwrap_cube.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\unwrap_spmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\proxy.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\proxycube.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spproxy.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\diagmat_proxy.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\strip.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eop_aux.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_ostream_bones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arma_ostream_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_n_unique.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_plus.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_minus.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_times.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_schur.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_div.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_relational.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_cube_plus.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_cube_minus.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_cube_times.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_cube_schur.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_cube_div.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_cube_relational.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\operator_ostream.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_conv_to.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_max.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_min.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_index_max.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_index_min.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_accu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_sum.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_diagmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_diagvec.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_inv.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trace.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trans.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_det.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_log_det.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eig_gen.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eig_sym.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eig_pair.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_lu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_zeros.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_ones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eye.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_misc.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_orth_null.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_regspace.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_find.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_find_unique.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_elem.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_approx_equal.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_norm.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_dot.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_randu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_randn.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trig.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_mean.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_median.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_stddev.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_var.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_sort.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_sort_index.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_strans.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_chol.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_qr.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_svd.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_solve.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_repmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_repelem.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_reshape.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_vectorise.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_resize.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_cov.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_cor.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_shift.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_shuffle.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_prod.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eps.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_pinv.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_rank.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_kron.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_flip.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_reverse.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_as_scalar.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_princomp.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_cross.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_join.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_conv.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trunc_exp.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trunc_log.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_toeplitz.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trimat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_cumsum.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_cumprod.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_symmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_syl_lyap.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_hist.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_histc.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_unique.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_fft.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_fft2.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_any.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_all.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_size.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_numel.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_inplace_strans.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_inplace_trans.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_randi.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_randg.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_cond.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_normalise.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_clamp.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_expmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_nonzeros.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_interp1.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_qz.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_diff.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_hess.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_schur.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_kmeans.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_sqrtmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_logmat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_trapz.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_range.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_polyfit.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_polyval.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_intersect.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_normpdf.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_normcdf.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_mvnrnd.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_chi2rnd.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_wishrnd.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_roots.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_speye.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_spones.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_sprandn.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_sprandu.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eigs_sym.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_eigs_gen.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_spsolve.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fn_svds.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\hdf5_misc.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\fft_engine.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\band_helper.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sympd_helper.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mul_gemv.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mul_gemm.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mul_gemm_mixed.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mul_syrk.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mul_herk.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\opcube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtop_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtopcube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtspop_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gluecube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eop_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eopcube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eglue_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\egluecube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtglue_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mtgluecube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\base_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\basecube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spbase_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gen_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gencube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eop_core_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\eglue_core_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\cond_rel_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\arrayops_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\podarray_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\auxlib_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sp_auxlib_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\injector_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\col_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\row_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\cube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\xvec_htrans_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\xtrans_mat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sizemat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sizecube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\field_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_elem1_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_elem2_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_field_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_cube_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\diagview_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_each_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_cube_each_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\subview_cube_slices_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spvalproxy_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spmat_iterators_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spcol_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\sprow_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spsubview_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spsubview_iterators_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spdiagview_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\mapmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\diskio_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\wall_clock_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\running_stat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\running_stat_vec_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_diagmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_diagvec_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_dot_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_inv_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_htrans_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_max_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_index_max_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_index_min_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_min_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_mean_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_median_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sort_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sort_index_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sum_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_stddev_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_strans_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_var_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_repmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_repelem_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_reshape_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_vectorise_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_resize_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cov_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cor_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_shift_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_shuffle_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_prod_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_pinv_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_dotext_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_flip_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_reverse_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_princomp_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_misc_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_orth_null_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_relational_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_find_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_find_unique_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_chol_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cx_scalar_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_trimat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cumsum_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cumprod_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_symmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_hist_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_unique_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_toeplitz_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_fft_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_any_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_all_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_normalise_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_clamp_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_expmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_nonzeros_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_diff_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_norm_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_sqrtmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_logmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_range_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_chi2rnd_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_wishrnd_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_roots_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\op_cond_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_times_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_mixed_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_cov_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_cor_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_kron_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_cross_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_join_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_relational_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_solve_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_conv_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_toeplitz_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_hist_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_histc_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_max_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_min_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_trapz_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_atan2_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_hypot_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_polyfit_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_polyval_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_intersect_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_affmul_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\glue_mvnrnd_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gmm_misc_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gmm_diag_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\gmm_full_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_max_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_min_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_sum_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_strans_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_htrans_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_misc_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_diagmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_mean_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_var_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_trimat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_symmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_normalise_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_reverse_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spop_repmat_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_elem_helper_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_plus_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_minus_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_schur_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_times_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_join_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\spglue_kron_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_cx_attrib.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_sorteigenvalue.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_densegenmatprod_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_sparsegenmatprod_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_doubleshiftqr_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_geneigssolver_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_symeigssolver_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_tridiageigen_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_upperhessenbergeigen_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\newarp_upperhessenbergqr_meat.hpp
+
+1466093957 e:\dev\chain\include\armadillo_bits\compiler_setup_post.hpp
+
+1544551075 e:\dev\chain\include\eigen\dense
+	"Core"
+	"LU"
+	"Cholesky"
+	"QR"
+	"SVD"
+	"Geometry"
+	"Eigenvalues"
+
+1544551075 e:\dev\chain\include\eigen\core
+	"src/Core/util/DisableStupidWarnings.h"
+	<cuda_runtime.h>
+	<new>
+	"src/Core/util/Macros.h"
+	<complex>
+	"src/Core/util/MKL_support.h"
+	<malloc.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<emmintrin.h>
+	<xmmintrin.h>
+	<pmmintrin.h>
+	<tmmintrin.h>
+	<smmintrin.h>
+	<nmmintrin.h>
+	<immintrin.h>
+	<altivec.h>
+	<altivec.h>
+	<arm_neon.h>
+	<vecintrin.h>
+	<vector_types.h>
+	<host_defines.h>
+	<cuda_fp16.h>
+	<omp.h>
+	<cerrno>
+	<cstddef>
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<functional>
+	<iosfwd>
+	<cstring>
+	<string>
+	<limits>
+	<climits>
+	<algorithm>
+	<type_traits>
+	<iostream>
+	<intrin.h>
+	"src/Core/util/Constants.h"
+	"src/Core/util/Meta.h"
+	"src/Core/util/ForwardDeclarations.h"
+	"src/Core/util/StaticAssert.h"
+	"src/Core/util/XprHelper.h"
+	"src/Core/util/Memory.h"
+	"src/Core/NumTraits.h"
+	"src/Core/MathFunctions.h"
+	"src/Core/GenericPacketMath.h"
+	"src/Core/MathFunctionsImpl.h"
+	"src/Core/arch/Default/ConjHelper.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX512/PacketMath.h"
+	"src/Core/arch/AVX512/MathFunctions.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/AVX/PacketMath.h"
+	"src/Core/arch/AVX/MathFunctions.h"
+	"src/Core/arch/AVX/Complex.h"
+	"src/Core/arch/AVX/TypeCasting.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/SSE/PacketMath.h"
+	"src/Core/arch/SSE/MathFunctions.h"
+	"src/Core/arch/SSE/Complex.h"
+	"src/Core/arch/SSE/TypeCasting.h"
+	"src/Core/arch/AltiVec/PacketMath.h"
+	"src/Core/arch/AltiVec/MathFunctions.h"
+	"src/Core/arch/AltiVec/Complex.h"
+	"src/Core/arch/NEON/PacketMath.h"
+	"src/Core/arch/NEON/MathFunctions.h"
+	"src/Core/arch/NEON/Complex.h"
+	"src/Core/arch/ZVector/PacketMath.h"
+	"src/Core/arch/ZVector/MathFunctions.h"
+	"src/Core/arch/ZVector/Complex.h"
+	"src/Core/arch/CUDA/Half.h"
+	"src/Core/arch/CUDA/PacketMathHalf.h"
+	"src/Core/arch/CUDA/TypeCasting.h"
+	"src/Core/arch/CUDA/PacketMath.h"
+	"src/Core/arch/CUDA/MathFunctions.h"
+	"src/Core/arch/Default/Settings.h"
+	"src/Core/functors/TernaryFunctors.h"
+	"src/Core/functors/BinaryFunctors.h"
+	"src/Core/functors/UnaryFunctors.h"
+	"src/Core/functors/NullaryFunctors.h"
+	"src/Core/functors/StlFunctors.h"
+	"src/Core/functors/AssignmentFunctors.h"
+	"src/Core/arch/CUDA/Complex.h"
+	"src/Core/IO.h"
+	"src/Core/DenseCoeffsBase.h"
+	"src/Core/DenseBase.h"
+	"src/Core/MatrixBase.h"
+	"src/Core/EigenBase.h"
+	"src/Core/Product.h"
+	"src/Core/CoreEvaluators.h"
+	"src/Core/AssignEvaluator.h"
+	"src/Core/Assign.h"
+	"src/Core/ArrayBase.h"
+	"src/Core/util/BlasUtil.h"
+	"src/Core/DenseStorage.h"
+	"src/Core/NestByValue.h"
+	"src/Core/ReturnByValue.h"
+	"src/Core/NoAlias.h"
+	"src/Core/PlainObjectBase.h"
+	"src/Core/Matrix.h"
+	"src/Core/Array.h"
+	"src/Core/CwiseTernaryOp.h"
+	"src/Core/CwiseBinaryOp.h"
+	"src/Core/CwiseUnaryOp.h"
+	"src/Core/CwiseNullaryOp.h"
+	"src/Core/CwiseUnaryView.h"
+	"src/Core/SelfCwiseBinaryOp.h"
+	"src/Core/Dot.h"
+	"src/Core/StableNorm.h"
+	"src/Core/Stride.h"
+	"src/Core/MapBase.h"
+	"src/Core/Map.h"
+	"src/Core/Ref.h"
+	"src/Core/Block.h"
+	"src/Core/VectorBlock.h"
+	"src/Core/Transpose.h"
+	"src/Core/DiagonalMatrix.h"
+	"src/Core/Diagonal.h"
+	"src/Core/DiagonalProduct.h"
+	"src/Core/Redux.h"
+	"src/Core/Visitor.h"
+	"src/Core/Fuzzy.h"
+	"src/Core/Swap.h"
+	"src/Core/CommaInitializer.h"
+	"src/Core/GeneralProduct.h"
+	"src/Core/Solve.h"
+	"src/Core/Inverse.h"
+	"src/Core/SolverBase.h"
+	"src/Core/PermutationMatrix.h"
+	"src/Core/Transpositions.h"
+	"src/Core/TriangularMatrix.h"
+	"src/Core/SelfAdjointView.h"
+	"src/Core/products/GeneralBlockPanelKernel.h"
+	"src/Core/products/Parallelizer.h"
+	"src/Core/ProductEvaluators.h"
+	"src/Core/products/GeneralMatrixVector.h"
+	"src/Core/products/GeneralMatrixMatrix.h"
+	"src/Core/SolveTriangular.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular.h"
+	"src/Core/products/SelfadjointMatrixVector.h"
+	"src/Core/products/SelfadjointMatrixMatrix.h"
+	"src/Core/products/SelfadjointProduct.h"
+	"src/Core/products/SelfadjointRank2Update.h"
+	"src/Core/products/TriangularMatrixVector.h"
+	"src/Core/products/TriangularMatrixMatrix.h"
+	"src/Core/products/TriangularSolverMatrix.h"
+	"src/Core/products/TriangularSolverVector.h"
+	"src/Core/BandMatrix.h"
+	"src/Core/CoreIterators.h"
+	"src/Core/ConditionEstimator.h"
+	"src/Core/BooleanRedux.h"
+	"src/Core/Select.h"
+	"src/Core/VectorwiseOp.h"
+	"src/Core/Random.h"
+	"src/Core/Replicate.h"
+	"src/Core/Reverse.h"
+	"src/Core/ArrayWrapper.h"
+	"src/Core/products/GeneralMatrixMatrix_BLAS.h"
+	"src/Core/products/GeneralMatrixVector_BLAS.h"
+	"src/Core/products/GeneralMatrixMatrixTriangular_BLAS.h"
+	"src/Core/products/SelfadjointMatrixMatrix_BLAS.h"
+	"src/Core/products/SelfadjointMatrixVector_BLAS.h"
+	"src/Core/products/TriangularMatrixMatrix_BLAS.h"
+	"src/Core/products/TriangularMatrixVector_BLAS.h"
+	"src/Core/products/TriangularSolverMatrix_BLAS.h"
+	"src/Core/Assign_MKL.h"
+	"src/Core/GlobalFunctions.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\disablestupidwarnings.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\macros.h
+	<cstdlib>
+	<iostream>
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\mkl_support.h
+	<mkl.h>
+	"../../misc/blas.h"
+
+1544551075 e:\dev\chain\include\eigen\src\misc\blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\constants.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\meta.h
+	<cfloat>
+	<math_constants.h>
+	<cstdint>
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\forwarddeclarations.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\staticassert.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\xprhelper.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\memory.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\numtraits.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\genericpacketmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\mathfunctionsimpl.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\default\conjhelper.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\sse\packetmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\avx\packetmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\avx512\packetmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\avx512\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\sse\complex.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\sse\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\avx\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\avx\complex.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\avx\typecasting.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\sse\typecasting.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\altivec\packetmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\altivec\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\altivec\complex.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\neon\packetmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\neon\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\neon\complex.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\zvector\packetmath.h
+	<stdint.h>
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\zvector\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\zvector\complex.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\cuda\half.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\cuda\packetmathhalf.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\cuda\typecasting.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\cuda\packetmath.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\cuda\mathfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\default\settings.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\functors\ternaryfunctors.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\functors\binaryfunctors.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\functors\unaryfunctors.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\functors\nullaryfunctors.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\functors\stlfunctors.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\functors\assignmentfunctors.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arch\cuda\complex.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\io.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\densecoeffsbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\densebase.h
+	"../plugins/BlockMethods.h"
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\blockmethods.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\matrixbase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\commoncwiseunaryops.h
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\commoncwisebinaryops.h
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\matrixcwiseunaryops.h
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\matrixcwisebinaryops.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\eigenbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\product.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\coreevaluators.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\assignevaluator.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\assign.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arraybase.h
+	"../plugins/CommonCwiseUnaryOps.h"
+	"../plugins/MatrixCwiseUnaryOps.h"
+	"../plugins/ArrayCwiseUnaryOps.h"
+	"../plugins/CommonCwiseBinaryOps.h"
+	"../plugins/MatrixCwiseBinaryOps.h"
+	"../plugins/ArrayCwiseBinaryOps.h"
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\arraycwiseunaryops.h
+
+1544551075 e:\dev\chain\include\eigen\src\plugins\arraycwisebinaryops.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\blasutil.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\densestorage.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\nestbyvalue.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\returnbyvalue.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\noalias.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\plainobjectbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\matrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\array.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\cwiseternaryop.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\cwisebinaryop.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\cwiseunaryop.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\cwisenullaryop.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\cwiseunaryview.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\selfcwisebinaryop.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\dot.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\stablenorm.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\stride.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\mapbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\map.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\ref.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\block.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\vectorblock.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\transpose.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\diagonalmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\diagonal.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\diagonalproduct.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\redux.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\visitor.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\fuzzy.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\swap.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\commainitializer.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\generalproduct.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\solve.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\inverse.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\solverbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\permutationmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\transpositions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\triangularmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\selfadjointview.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalblockpanelkernel.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\parallelizer.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\productevaluators.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalmatrixvector.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalmatrixmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\solvetriangular.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalmatrixmatrixtriangular.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\selfadjointmatrixvector.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\selfadjointmatrixmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\selfadjointproduct.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\selfadjointrank2update.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularmatrixvector.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularmatrixmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularsolvermatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularsolvervector.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\bandmatrix.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\coreiterators.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\conditionestimator.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\booleanredux.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\select.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\vectorwiseop.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\random.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\replicate.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\reverse.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\arraywrapper.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalmatrixmatrix_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalmatrixvector_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\generalmatrixmatrixtriangular_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\selfadjointmatrixmatrix_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\selfadjointmatrixvector_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularmatrixmatrix_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularmatrixvector_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\products\triangularsolvermatrix_blas.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\assign_mkl.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\globalfunctions.h
+
+1544551075 e:\dev\chain\include\eigen\src\core\util\reenablestupidwarnings.h
+
+1544551075 e:\dev\chain\include\eigen\lu
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/Kernel.h"
+	"src/misc/Image.h"
+	"src/LU/FullPivLU.h"
+	"src/LU/PartialPivLU.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/LU/PartialPivLU_LAPACKE.h"
+	"src/LU/Determinant.h"
+	"src/LU/InverseImpl.h"
+	"src/LU/arch/Inverse_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\misc\kernel.h
+
+1544551075 e:\dev\chain\include\eigen\src\misc\image.h
+
+1544551075 e:\dev\chain\include\eigen\src\lu\fullpivlu.h
+
+1544551075 e:\dev\chain\include\eigen\src\lu\partialpivlu.h
+
+1544551075 e:\dev\chain\include\eigen\src\misc\lapacke.h
+	"lapacke_config.h"
+	<stdlib.h>
+	<complex.h>
+	<complex.h>
+	"lapacke_mangling.h"
+
+1544551075 e:\dev\chain\include\eigen\src\misc\lapacke_mangling.h
+
+1544551075 e:\dev\chain\include\eigen\src\lu\partialpivlu_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\src\lu\determinant.h
+
+1544551075 e:\dev\chain\include\eigen\src\lu\inverseimpl.h
+
+1544551075 e:\dev\chain\include\eigen\src\lu\arch\inverse_sse.h
+
+1544551075 e:\dev\chain\include\eigen\cholesky
+	"Core"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Cholesky/LLT.h"
+	"src/Cholesky/LDLT.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Cholesky/LLT_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\jacobi
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Jacobi/Jacobi.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\jacobi\jacobi.h
+
+1544551075 e:\dev\chain\include\eigen\src\cholesky\llt.h
+
+1544551075 e:\dev\chain\include\eigen\src\cholesky\ldlt.h
+
+1544551075 e:\dev\chain\include\eigen\src\cholesky\llt_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\qr
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"src/QR/HouseholderQR.h"
+	"src/QR/FullPivHouseholderQR.h"
+	"src/QR/ColPivHouseholderQR.h"
+	"src/QR/CompleteOrthogonalDecomposition.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/QR/HouseholderQR_LAPACKE.h"
+	"src/QR/ColPivHouseholderQR_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\householder
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/Householder/Householder.h"
+	"src/Householder/HouseholderSequence.h"
+	"src/Householder/BlockHouseholder.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\householder\householder.h
+
+1544551075 e:\dev\chain\include\eigen\src\householder\householdersequence.h
+
+1544551075 e:\dev\chain\include\eigen\src\householder\blockhouseholder.h
+
+1544551075 e:\dev\chain\include\eigen\src\qr\householderqr.h
+
+1544551075 e:\dev\chain\include\eigen\src\qr\fullpivhouseholderqr.h
+
+1544551075 e:\dev\chain\include\eigen\src\qr\colpivhouseholderqr.h
+
+1544551075 e:\dev\chain\include\eigen\src\qr\completeorthogonaldecomposition.h
+
+1544551075 e:\dev\chain\include\eigen\src\qr\householderqr_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\src\qr\colpivhouseholderqr_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\svd
+	"QR"
+	"Householder"
+	"Jacobi"
+	"src/Core/util/DisableStupidWarnings.h"
+	"src/misc/RealSvd2x2.h"
+	"src/SVD/UpperBidiagonalization.h"
+	"src/SVD/SVDBase.h"
+	"src/SVD/JacobiSVD.h"
+	"src/SVD/BDCSVD.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/SVD/JacobiSVD_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\misc\realsvd2x2.h
+
+1544551075 e:\dev\chain\include\eigen\src\svd\upperbidiagonalization.h
+
+1544551075 e:\dev\chain\include\eigen\src\svd\svdbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\svd\jacobisvd.h
+
+1544551075 e:\dev\chain\include\eigen\src\svd\bdcsvd.h
+
+1544551075 e:\dev\chain\include\eigen\src\svd\jacobisvd_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\geometry
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"SVD"
+	"LU"
+	<limits>
+	"src/Geometry/OrthoMethods.h"
+	"src/Geometry/EulerAngles.h"
+	"src/Geometry/Homogeneous.h"
+	"src/Geometry/RotationBase.h"
+	"src/Geometry/Rotation2D.h"
+	"src/Geometry/Quaternion.h"
+	"src/Geometry/AngleAxis.h"
+	"src/Geometry/Transform.h"
+	"src/Geometry/Translation.h"
+	"src/Geometry/Scaling.h"
+	"src/Geometry/Hyperplane.h"
+	"src/Geometry/ParametrizedLine.h"
+	"src/Geometry/AlignedBox.h"
+	"src/Geometry/Umeyama.h"
+	"src/Geometry/arch/Geometry_SSE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\orthomethods.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\eulerangles.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\homogeneous.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\rotationbase.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\rotation2d.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\quaternion.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\angleaxis.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\transform.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\translation.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\scaling.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\hyperplane.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\parametrizedline.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\alignedbox.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\umeyama.h
+
+1544551075 e:\dev\chain\include\eigen\src\geometry\arch\geometry_sse.h
+
+1544551075 e:\dev\chain\include\eigen\eigenvalues
+	"Core"
+	"src/Core/util/DisableStupidWarnings.h"
+	"Cholesky"
+	"Jacobi"
+	"Householder"
+	"LU"
+	"Geometry"
+	"src/misc/RealSvd2x2.h"
+	"src/Eigenvalues/Tridiagonalization.h"
+	"src/Eigenvalues/RealSchur.h"
+	"src/Eigenvalues/EigenSolver.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver.h"
+	"src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h"
+	"src/Eigenvalues/HessenbergDecomposition.h"
+	"src/Eigenvalues/ComplexSchur.h"
+	"src/Eigenvalues/ComplexEigenSolver.h"
+	"src/Eigenvalues/RealQZ.h"
+	"src/Eigenvalues/GeneralizedEigenSolver.h"
+	"src/Eigenvalues/MatrixBaseEigenvalues.h"
+	"mkl_lapacke.h"
+	"src/misc/lapacke.h"
+	"src/Eigenvalues/RealSchur_LAPACKE.h"
+	"src/Eigenvalues/ComplexSchur_LAPACKE.h"
+	"src/Eigenvalues/SelfAdjointEigenSolver_LAPACKE.h"
+	"src/Core/util/ReenableStupidWarnings.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\tridiagonalization.h
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\realschur.h
+	"./HessenbergDecomposition.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\hessenbergdecomposition.h
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\eigensolver.h
+	"./RealSchur.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\selfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\generalizedselfadjointeigensolver.h
+	"./Tridiagonalization.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\complexschur.h
+	"./HessenbergDecomposition.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\complexeigensolver.h
+	"./ComplexSchur.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\realqz.h
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\generalizedeigensolver.h
+	"./RealQZ.h"
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\matrixbaseeigenvalues.h
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\realschur_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\complexschur_lapacke.h
+
+1544551075 e:\dev\chain\include\eigen\src\eigenvalues\selfadjointeigensolver_lapacke.h
+
+1547995279 e:\dev\chain\include\jw\simple_chain.h
+
+1547834369 e:\dev\chain\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1547836663 e:\dev\chain\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
